@@ -1,0 +1,26 @@
+* {
+  box-sizing: borderbox;
+}
+body {
+  padding-top: 25px;
+}
+.pageHeader {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.menuNavigation {
+  display: flex;
+  justify-content: center;
+}
+.basicInformation {
+  border: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+.contactInformation {
+}
