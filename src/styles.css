@@ -22,6 +22,16 @@ body {
 .desktopNav {
   display: none;
 }
+.mobileNavBar {
+  display: none;
+  z-index: 2;
+  position: absolute;
+  background-color: white;
+  top: 0;
+}
+.mobileNavBarItem {
+  z-index: 2;
+}
 
 .headerPicture {
   display: flex;
@@ -89,6 +99,7 @@ body {
   .mobileNav {
     display: none;
   }
+
   .mobileMenuButton {
     display: none;
   }
