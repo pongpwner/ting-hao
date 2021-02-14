@@ -5,6 +5,11 @@ body {
   padding-top: 15%;
   margin: 0;
 }
+.menuNavCat,
+.menuNavSearch,
+.menuNavSearchButton {
+  display: none;
+}
 .pageHeader {
   display: flex;
   flex-direction: row;
@@ -130,6 +135,11 @@ body {
   .headerPicture {
     grid-column: 1/4;
     grid-row: 2/3;
+  }
+  .menuNavCat,
+  .menuNavSearch,
+  .menuNavSearchButton {
+    display: block;
   }
 
   .menuNavigation {
