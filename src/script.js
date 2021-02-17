@@ -97,3 +97,13 @@ function closeMobileNav() {
     mobileNav.style.display = "none";
   }
 }
+
+function mobileMenuNav() {
+  menu = document.querySelector(".menuNav");
+
+  if (menu.style.display == "none") {
+    menu.style.display = "flex";
+  } else {
+    menu.style.display = "none";
+  }
+}

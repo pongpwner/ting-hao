@@ -5,10 +5,16 @@ body {
   padding-top: 15%;
   margin: 0;
 }
-.menuNavCat,
+.menuNav,
 .menuNavSearch,
 .menuNavSearchButton {
   display: none;
+}
+.desktop {
+  display: none;
+}
+.pageContainer {
+  margin: 0;
 }
 .pageHeader {
   display: flex;
@@ -60,6 +66,11 @@ body {
   display: flex;
   justify-content: center;
   background-color: #e3e3e3;
+  flex-direction: column;
+}
+.menuNav {
+  display: none;
+  flex-direction: column;
 }
 .menuButton {
   width: 100%;
@@ -92,7 +103,7 @@ body {
 .description {
   margin: 4%;
 }
-
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (min-width: 420px) {
   html,
   body,
@@ -112,10 +123,10 @@ body {
   .mobileNav {
     display: none;
   }
-
-  .mobileMenuButton {
+  .mobile {
     display: none;
   }
+
   /* readjusting things to desktop view */
   .desktopNav {
     display: block;
@@ -141,6 +152,10 @@ body {
   .menuNavSearchButton {
     display: block;
   }
+  .menuNav {
+    display: flex;
+    flex-direction: column;
+  }
 
   .menuNavigation {
     grid-column: 1/2;
@@ -153,7 +168,7 @@ body {
     padding: 2% 0% 2% 2%;
     background-color: #e3e3e3;
   }
-  .menuButton {
+  .menuCategory {
     display: flex;
     justify-content: start;
     font-size: 1.3em;
@@ -168,6 +183,7 @@ body {
     font-size: 1.2em;
     border-bottom: 1px solid gray;
   }
+
   .menuNavSearch {
     display: flex;
     flex-direction: row;
