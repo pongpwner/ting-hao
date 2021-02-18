@@ -16,50 +16,52 @@
   var days = {
     Sunday: {
       open: false,
-      openTime: 9,
-      closeTime: 15,
+      openTime: 25,
+      closeTime: 25,
     },
     Monday: {
       open: false,
-      openTime: 7,
-      closeTime: 17,
+      openTime: 25,
+      closeTime: 25,
     },
     Tuesday: {
       open: false,
-      openTime: 7,
-      closeTime: 17,
+      openTime: 25,
+      closeTime: 25,
     },
     Wednesday: {
       open: true,
       openTime: 11,
-      closeTime: 20,
+      closeTime: 20.31,
     },
     Thursday: {
       open: true,
       openTime: 11,
-      closeTime: 20,
+      closeTime: 20.3,
     },
     Friday: {
       open: true,
       openTime: 11,
-      closeTime: 20,
+      closeTime: 20.3,
     },
     Saturday: {
       open: true,
       openTime: 15,
-      closeTime: 20,
-      closeTimeMin: 30,
+      closeTime: 20.3,
     },
   };
   function updateOperation() {
     let theDay = days[weekday[date.getDay()]];
-    let currentHour = date.getHours();
-    let currentMinute = date.getMinutes();
+
+    let now = `${date.getHours()}.${date.getMinutes()}`;
     //need to convert to am pm system and add caluclaations for minutes
-    if (currentHour >= theDay.openTime && currentHour < theDay.closeTime) {
+    //probably use current minute instead of current hour to be more precise and get the 8:30 now= gethours.getmin
+    if (now >= theDay.openTime && now < theDay.closeTime) {
       operation.innerHTML = "Open";
       operation.style.color = "green";
-      operationHours.innerHTML = `${theDay.openTime}-${theDay.closeTime}`;
+      operationHours.innerHTML = `${theDay.openTime}:00AM-${
+        Math.floor(theDay.closeTime) - 12
+      }:${Math.floor((theDay.closeTime % 1) * 100)}PM`;
     } else {
       operation.innerHTML = "Closed";
       operation.style.color = "red";
