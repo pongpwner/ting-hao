@@ -64,7 +64,8 @@
       }:${Math.floor((theDay.closeTime % 1) * 100)}PM`;
     } else {
       operation.innerHTML = "Closed";
-      operation.style.color = "red";
+      operation.style.color = "#ba1e1e";
+
       operationHours.innerHTML = "Not open today";
     }
   }
