@@ -60,6 +60,13 @@ body {
   padding: 2%;
   background-color: white;
 }
+.menuNavCat {
+  text-decoration: none;
+  border-bottom: 1px gray solid;
+  padding: 3% 0 3% 3%;
+  color: green;
+  font-size: 1.3em;
+}
 .basicInformation {
   display: flex;
   flex-direction: column;
@@ -101,6 +108,7 @@ body {
 .menuNav {
   display: none;
   flex-direction: column;
+  background-color: white;
 }
 .menuButton {
   width: 100%;
@@ -147,7 +155,40 @@ body {
 .description {
   margin: 4%;
 }
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////menu pricing/////////////////////////////////////////////////*/
+.menuItemContainer {
+}
+.dishType {
+  font-size: 2em;
+  font-weight: 900;
+}
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px gray solid;
+  margin: 4%;
+}
+
+.dishName {
+  font-size: 1.5em;
+  font-weight: 900;
+  margin: 1% 1% 2% 1%;
+}
+.price {
+  color: red;
+  font-size: 1.3em;
+  margin: 1%;
+}
+
+.soupPrice:after {
+  content: "2.59";
+}
+.houseSpecialSoupPrice:after {
+  content: "10.99";
+}
+
+/*/ ////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (min-width: 420px) {
   html,
   body,
@@ -202,6 +243,7 @@ body {
   .menuNav {
     display: flex;
     flex-direction: column;
+    background-color: #e3e3e3;
   }
 
   .menuNavigation {
