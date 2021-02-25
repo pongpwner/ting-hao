@@ -200,54 +200,99 @@ body {
   content: "8.99";
 }
 .chickenSmallPrice:after {
-  content: "7.99";
+  content: "S: 7.99";
 }
 .chickenLargePrice:after {
-  content: "11.99";
+  content: "L: 11.99";
 }
 .shrimpSmallPrice:after {
-  content: ".99";
+  content: "S: 9.99";
 }
 .shrimpLargePrice:after {
-  content: "13.99";
+  content: "L: 13.99";
 }
 .beefSmallPrice:after {
-  content: "8.99";
+  content: "S: 8.99";
 }
 .beefLargePrice:after {
-  content: "12.99";
+  content: "L: 12.99";
 }
 .vegetableSmallPrice:after {
-  content: "7.99";
+  content: "S: 7.99";
 }
 .vegetableLargePrice:after {
-  content: "11.99";
+  content: "L: 11.99";
 }
 .tofuSmallPrice:after {
-  content: "9.99";
+  content: "S: 9.99";
 }
 .tofuLargePrice:after {
-  content: "13.99";
+  content: "L: 13.99";
 }
 .friedRiceSmallPrice:after {
-  content: "2.99";
+  content: "S: 2.99";
 }
 .friedRiceLargePrice:after {
-  content: "4.99";
+  content: "L: 4.99";
 }
 .fried1RiceSmallPrice:after {
   /* vegetable  and chicken fried rice*/
-  content: "7.59";
+  content: "S: 7.59";
 }
 .friedRice1LargePrice:after {
-  content: "10.59";
+  content: "L: 10.59";
 }
 .friedRice2SmallPrice:after {
   /* beef, shrimp, combination rice*/
-  content: "7.99";
+  content: "S: 7.99";
 }
 .friedRice2LargePrice:after {
+  content: "L: 10.99";
+}
+.loMein1SmallPrice:after {
+  /* vegetable  and chicken lo mein*/
+  content: "S: 7.99";
+}
+.loMein1LargePrice:after {
+  content: "L: 10.99";
+}
+.loMein2SmallPrice:after {
+  /* beef, shrimp, combination lo mein*/
+  content: "S: 8.99";
+}
+.loMein2LargePrice:after {
+  content: "L: 11.99";
+}
+.chefSpecialtiesPrice:after {
+  content: "13.99";
+}
+.combinationPlate1Price:after {
+  /*chicken fried rice*/
+  content: "10.59";
+}
+.combinationPlate2Price:after {
+  /*beef, shrimp, combination fried rice*/
+  content: "10.79";
+}
+.combinationPlate3Price:after {
+  /*chicken dishes*/
   content: "10.99";
+}
+.combinationPlate4Price:after {
+  /*beef dishes*/
+  content: "11.99";
+}
+.lunchSpecial1Price:after {
+  /*chicken and vegetable dishes*/
+  content: "8.59";
+}
+.lunchSpecial2Price:after {
+  /* shrimp and beef and chef specialies dishes*/
+  content: "8.99";
+}
+.lunchSpecial3Price:after {
+  /* chicken fried rice*/
+  content: "8.49";
 }
 
 /*/ ////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
