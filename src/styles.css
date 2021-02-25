@@ -199,6 +199,56 @@ body {
 .dumplingPrice:after {
   content: "8.99";
 }
+.chickenSmallPrice:after {
+  content: "7.99";
+}
+.chickenLargePrice:after {
+  content: "11.99";
+}
+.shrimpSmallPrice:after {
+  content: ".99";
+}
+.shrimpLargePrice:after {
+  content: "13.99";
+}
+.beefSmallPrice:after {
+  content: "8.99";
+}
+.beefLargePrice:after {
+  content: "12.99";
+}
+.vegetableSmallPrice:after {
+  content: "7.99";
+}
+.vegetableLargePrice:after {
+  content: "11.99";
+}
+.tofuSmallPrice:after {
+  content: "9.99";
+}
+.tofuLargePrice:after {
+  content: "13.99";
+}
+.friedRiceSmallPrice:after {
+  content: "2.99";
+}
+.friedRiceLargePrice:after {
+  content: "4.99";
+}
+.fried1RiceSmallPrice:after {
+  /* vegetable  and chicken fried rice*/
+  content: "7.59";
+}
+.friedRice1LargePrice:after {
+  content: "10.59";
+}
+.friedRice2SmallPrice:after {
+  /* beef, shrimp, combination rice*/
+  content: "7.99";
+}
+.friedRice2LargePrice:after {
+  content: "10.99";
+}
 
 /*/ ////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (min-width: 420px) {
