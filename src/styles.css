@@ -145,6 +145,14 @@ body {
   margin: 5%;
   border-radius: 6%;
 }
+.serviceType {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ba1e1e;
+}
+.clock {
+  font-size: 1.3em;
+}
 .contactInformation {
   border: 1px;
   border-style: solid;
@@ -476,11 +484,6 @@ body {
     margin-bottom: 3%;
   }
 
-  .serviceType {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #ba1e1e;
-  }
   .adress {
     margin-top: 1px;
     margin-bottom: 1px;
