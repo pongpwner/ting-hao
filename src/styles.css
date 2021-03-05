@@ -340,7 +340,7 @@ body {
     grid-template-columns: 23% 54% 23%;
 
     grid-template-rows:
-      6vh 18vh repeat(4, 7.5vh) repeat(auto-fit, minmax(10vh, 1fr))
+      6vh 18vh repeat(5, 7.5vh) repeat(auto-fit, minmax(10vh, 1fr))
       6vh;
   }
   /*hide mobile components */
@@ -433,7 +433,7 @@ body {
   }
   .contactInformation {
     grid-column: 3/4;
-    grid-row: 5/7;
+    grid-row: 6/8;
     align-items: start;
     border: none;
     justify-content: space-evenly;
