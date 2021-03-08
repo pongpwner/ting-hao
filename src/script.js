@@ -110,3 +110,24 @@ function mobileMenuNav() {
     menu.style.display = "none";
   }
 }
+
+function searchMenu() {
+  let imageContainer = document.querySelectorAll("div.imageContainer");
+  let mainImageContainer = document.querySelectorAll("div.mainImageContainer");
+  let imageCategory = document.querySelectorAll("div.imageCategory");
+  let dishName = document.querySelectorAll("div.dishName");
+  let menuNavSearchBar = document.querySelector(".menuNavSearchBar");
+
+  console.log(dishName.length);
+  dishName.forEach(function (element) {
+    if (
+      element.innerHTML
+        .toUpperCase()
+        .includes(menuNavSearchBar.value.toUpperCase())
+    ) {
+      element.parentNode.style.display = "block";
+    } else {
+      element.parentNode.style.display = "none";
+    }
+  });
+}
