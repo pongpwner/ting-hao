@@ -1,0 +1,121 @@
+c
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ting Hao</title>
+    <link href="../styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="pageContainer">
+        <header class="pageHeader">
+            <a href="../index.html" class=" desktopNav desktop">Home</a>
+            <a href="menu/menu.html" class="desktopNav desktop">Menu</a>
+            <a href="../pictures.html" class="desktopNav desktop">Pictures</a>
+            <a href="../location.html" class="desktopNav desktop">Hours and Location</a>
+
+            <button type="button" class="mobileNav mobile" onClick="openMobileNav()">Nav</button>
+
+
+            <p class="mobileNav mobile">Ting Hao - Salisbury</p>
+            <button class="searchMenu mobileNav mobile">=</button>
+        </header>
+        <div class="mobileNav mobileNavBar mobile">
+            <button type="button" onClick="closeMobileNav()"
+                class="mobile mobileNav mobileNavBarItem mobileNavClose">X</button>
+            <a class="mobileNav mobileNavBarItem mobile" onClick="closeMobileNav()" href="../index.html">Home</a>
+            <a class="mobileNav mobileNavBarItem mobile" href="menu.html">Menu</a>
+            <a href="../pictures.html" class="mobileNav mobileNavBarItem mobile">Pictures</a>
+            <a class="mobileNav mobileNavBarItem mobile" href="../location.html">Hours and Location</a>
+        </div>
+        <div class="headerPicture">Ting Hao</div>
+        <div class="menuNavigation">
+            <button class="menuButton mobile" type="button" onClick="mobileMenuNav()">Menu Categories +</button>
+            <div class="menuCategory desktop">Menu Categories</div>
+            <div class="menuNav">
+                <a href="menu.html" class="menuNavCat">Full Menu</a>
+                <a href="soups.html" class="menuNavCat">Soups</a>
+                <a href="appetizers.html" class="menuNavCat">Appetizers</a>
+                <a href="chicken.html" class="menuNavCat">Chicken</a>
+                <a href="shrimp.html" class="menuNavCat">Shrimp</a>
+                <a href="beef.html" class="menuNavCat">Beef</a>
+                <a href="vegetables.html" class="menuNavCat">Vegetables</a>
+                <a href="friedRice.html" class="menuNavCat">Fried Rice</a>
+                <a href="loMein.html" class="menuNavCat">Lo Mein</a>
+                <a href="specialties.html" class="menuNavCat">Chef's Specialties</a>
+                <a href="combinationPlate.html" class="menuNavCat">Combination Plate</a>
+                <a href="lunchSpecials.html" class="menuNavCat">Lunch Specials</a>
+            </div>
+            <div class="menuNavSearch">
+                <input value="" placeholder="Search" class="menuNavSearchBar">
+                <button class="menuNavSearchButton" onClick="searchMenu()">Search</button>
+
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="mainContent">
+
+
+
+            <div class="menuItemContainer">
+                <div class="dishType">Lo Mein (Pasta)</div>
+
+                <div class="menuItem">
+                    <div class="dishName">38. Vegetable or Chicken Lo Mein</div>
+                    <div class="price loMein1SmallPrice"></div>
+                    <div class="price loMein1LargePrice"></div>
+                </div>
+
+                <div class="menuItem">
+                    <div class="dishName">Beef or Shrimp Lo Mein</div>
+                    <div class="price loMein2SmallPrice"></div>
+                    <div class="price loMein2LargePrice"></div>
+                </div>
+
+                <div class="menuItem">
+                    <div class="dishName">Combination Lo Mein</div>
+                    <div class="price loMein2SmallPrice"></div>
+                    <div class="price loMein2LargePrice"></div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <div class="basicInformation">
+            <p class="infoText"><span class="operation"></span></p>
+            <p class="infoText"><span class="clock"></span></p>
+            <p class="infoText"><span class="operationHours"></span></p>
+            <p class="infoText serviceType">Pickup Only</p>
+        </div>
+        <div class="contactInformation">
+            <p class="infoText contactTitle desktop">Contact Us</p>
+            <p class="infoText adress">WESTLAND CENTER</p>
+            <p class="infoText adress">519-G Jake Alexander Blvd. West</p>
+            <p class="infoText adress">Salisbury, NC 28147</p>
+            <p class="infoText map">map</p>
+
+            <p class="infoText phoneNumber">704-633-3942</p>
+        </div>
+        <footer class="pageFooter">
+            <a href="../index.html" class="desktopNav desktop">Home</a>
+            <a href="menu.html" class="desktopNav desktop">Menu</a>
+            <a href="../pictures.html" class="desktopNav desktop">Pictures</a>
+            <a href="../location.html" class="desktopNav desktop">Hours and Location</a>
+        </footer>
+
+    </div>
+
+    <script src=../script.js></script>
+</body>
+
+</html>
