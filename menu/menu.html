@@ -40,17 +40,19 @@
         <a href="appetizers.html" class="menuNavCat">Appetizers</a>
         <a href="chicken.html" class="menuNavCat">Chicken</a>
         <a href="shrimp.html" class="menuNavCat">Shrimp</a>
+        <a href="pork.html" class="menuNavCat">Pork</a>
         <a href="beef.html" class="menuNavCat">Beef</a>
         <a href="vegetables.html" class="menuNavCat">Vegetables</a>
         <a href="friedRice.html" class="menuNavCat">Fried Rice</a>
         <a href="loMein.html" class="menuNavCat">Lo Mein</a>
+        <a href="chowMein.html" class="menuNavCat">Chow Mein</a>
         <a href="specialties.html" class="menuNavCat">Chef's Specialties</a>
         <a href="combinationPlate.html" class="menuNavCat">Combination Plate</a>
         <a href="lunchSpecials.html" class="menuNavCat">Lunch Specials</a>
       </div>
-      <div class="menuNavSearch">
-        <input value="" placeholder="Search" class="menuNavSearchBar">
-        <button class="menuNavSearchButton" onClick="searchMenu()">Search</button>
+      <div class="menuNavSearch desktop">
+        <input value="" placeholder="Search" class="menuNavSearchBar desktop">
+        <button class="menuNavSearchButton desktop" onClick="searchMenu()">Search</button>
 
 
 
@@ -61,8 +63,15 @@
 
 
     <div class="mainContent">
+      <div class="mobileMenuNavSearch mobile">
+        <input type="text" placeholder="Search" class="mobileMenuNavSearchBar mobile">
+        <button class="mobileMenuNavSearchButton mobile" onClick="searchMenuMobile()">Search</button>
+
+      </div>
+
 
       <div class="menuItemContainer">
+
         <div class="dishType">Soups</div>
 
         <div class="menuItem">
@@ -71,101 +80,120 @@
         </div>
 
         <div class="menuItem">
-          <div class="dishName">2. Hot & Sour Soup</div>
+          <div class="dishName">2. Wonton Soup</div>
           <div class="price soupPrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">3. House Special Soup (2)</div>
+          <div class="dishName">3. Hot & Sour Soup</div>
+          <div class="price soupPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">4. House Special Soup (2)</div>
           <div class="price houseSpecialSoupPrice"></div>
         </div>
 
       </div>
 
       <div class="menuItemContainer">
+
         <div class="dishType">Appetizers</div>
 
         <div class="menuItem">
-          <div class="dishName">4. Egg Roll</div>
+          <div class="dishName">5. Egg Roll</div>
           <div class="price eggRollPrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">5. Crabmeat Fried Wontons (4)</div>
+          <div class="dishName">6. Crabmeat Fried Wontons (4)</div>
           <div class="price friedWontonPrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">6. Fried Chicken Wings (8)</div>
+          <div class="dishName">7. Fried Chicken Wings (8)</div>
           <div class="price wingPrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">7. Dumplings (10) (Fried/Steamed)</div>
+          <div class="dishName">8. Dumplings (10) (Fried/Steamed)</div>
           <div class="price dumplingPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">9. Spring Roll (1)</div>
+          <div class="price springRollPrice"></div>
         </div>
 
       </div>
 
       <div class="menuItemContainer">
-        <div class="dishType">Chicken</div>
+
+        <div class="dishType">Chicken </div>
+        <div class="withRice">(with white or fried rice)</div>
 
         <div class="menuItem">
-          <div class="dishName">8.Moo Goo Gai Pan</div>
+          <div class="dishName">10.Moo Goo Gai Pan</div>
           <div class="price chickenSmallPrice"></div>
           <div class="price chickenLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">9. Chicken with Broccoli</div>
+          <div class="dishName">11. Chicken with Broccoli</div>
           <div class="price chickenSmallPrice"></div>
           <div class="price chickenLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">10. Chicken with Mushrooms</div>
+          <div class="dishName">12. Curry Chicken</div>
           <div class="price chickenSmallPrice"></div>
           <div class="price chickenLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">11. Chicken with Cashew Nuts</div>
+          <div class="dishName">13. Chicken with Mushrooms</div>
           <div class="price chickenSmallPrice"></div>
           <div class="price chickenLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">12. Kon Bo Chicken</div>
+          <div class="dishName">14. Chicken with Cashew Nuts</div>
           <div class="price chickenSmallPrice"></div>
           <div class="price chickenLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">13. Hunan Chicken </div>
+          <div class="dishName">15. Kon Bo Chicken</div>
           <div class="price chickenSmallPrice"></div>
           <div class="price chickenLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">14. Sweet & Sour Chicken</div>
+          <div class="dishName">16. Hunan Chicken </div>
           <div class="price chickenSmallPrice"></div>
           <div class="price chickenLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">15. Empress Chicken</div>
+          <div class="dishName">17. Sweet & Sour Chicken</div>
           <div class="price chickenSmallPrice"></div>
           <div class="price chickenLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">16. Boneless Chicken</div>
+          <div class="dishName">18. Empress Chicken</div>
           <div class="price chickenSmallPrice"></div>
           <div class="price chickenLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">17. Yu-Shang Chicken</div>
+          <div class="dishName">19. Boneless Chicken</div>
+          <div class="price chickenSmallPrice"></div>
+          <div class="price chickenLargePrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">20. Yu-Shang Chicken</div>
           <div class="price chickenSmallPrice"></div>
           <div class="price chickenLargePrice"></div>
         </div>
@@ -174,39 +202,46 @@
 
       <div class="menuItemContainer">
         <div class="dishType">Shrimp</div>
+        <div class="withRice">(with white or fried rice)</div>
 
         <div class="menuItem">
-          <div class="dishName">18. Srimp with Broccoli</div>
+          <div class="dishName">21. Srimp with Broccoli</div>
           <div class="price shrimpSmallPrice"></div>
           <div class="price shrimpLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">19. Shrimp with Vegetables</div>
+          <div class="dishName">22. Shrimp with Vegetables</div>
           <div class="price shrimpSmallPrice"></div>
           <div class="price shrimpLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">20. Shrimp with Lobster Sauce</div>
+          <div class="dishName">23. Curry Shrimp</div>
           <div class="price shrimpSmallPrice"></div>
           <div class="price shrimpLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">21. Shrimp with Cashew Nuts</div>
+          <div class="dishName">24. Shrimp with Lobster Sauce</div>
           <div class="price shrimpSmallPrice"></div>
           <div class="price shrimpLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">22. Hunan Shrimp</div>
+          <div class="dishName">25. Shrimp with Cashew Nuts</div>
           <div class="price shrimpSmallPrice"></div>
           <div class="price shrimpLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">23. Shrimp with Chili
+          <div class="dishName">26. Hunan Shrimp</div>
+          <div class="price shrimpSmallPrice"></div>
+          <div class="price shrimpLargePrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">27. Shrimp with Chili
             Sauce
           </div>
           <div class="price shrimpSmallPrice"></div>
@@ -214,7 +249,13 @@
         </div>
 
         <div class="menuItem">
-          <div class="dishName">24. Yu-Shang Shrimp</div>
+          <div class="dishName">28. Yu-Shang Shrimp</div>
+          <div class="price shrimpSmallPrice"></div>
+          <div class="price shrimpLargePrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">29. Sweet & Sour Shrimp</div>
           <div class="price shrimpSmallPrice"></div>
           <div class="price shrimpLargePrice"></div>
         </div>
@@ -222,52 +263,91 @@
       </div>
 
       <div class="menuItemContainer">
+        <div class="dishType">Pork</div>
+        <div class="withRice">(with white or fried rice)</div>
+
+        <div class="menuItem">
+          <div class="dishName">30. Hunan Pork</div>
+          <div class="price porkSmallPrice"></div>
+          <div class="price porkLargePrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">31. Sa-Cha Pork</div>
+          <div class="price porkSmallPrice"></div>
+          <div class="price porkLargePrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">32. Twice Cooked Pork</div>
+          <div class="price porkSmallPrice"></div>
+          <div class="price porkLargePrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">33. Sweet & Sour Pork</div>
+          <div class="price porkSmallPrice"></div>
+          <div class="price porkLargePrice"></div>
+        </div>
+
+
+
+      </div>
+
+      <div class="menuItemContainer">
         <div class="dishType">Beef</div>
+        <div class="withRice">(with white or fried rice)</div>
 
         <div class="menuItem">
-          <div class="dishName">25. Beef Pepper Steak</div>
+          <div class="dishName">34. Beef Pepper Steak</div>
           <div class="price beefSmallPrice"></div>
           <div class="price beefLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">26. Beef with Broccoli</div>
+          <div class="dishName">35. Beef with Broccoli</div>
           <div class="price beefSmallPrice"></div>
           <div class="price beefLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">27. Beef with Vegetables</div>
+          <div class="dishName">36. Beef with Vegetables</div>
           <div class="price beefSmallPrice"></div>
           <div class="price beefLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">28. Yu-Shang Beef</div>
+          <div class="dishName">37. Beef with Mushrooms</div>
           <div class="price beefSmallPrice"></div>
           <div class="price beefLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">29. Beef Szechuan Style</div>
+          <div class="dishName">38. Yu-Shang Beef</div>
           <div class="price beefSmallPrice"></div>
           <div class="price beefLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">30. Hunan Beef</div>
+          <div class="dishName">39. Beef Szechuan Style</div>
           <div class="price beefSmallPrice"></div>
           <div class="price beefLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">31. Curry Beef</div>
+          <div class="dishName">40. Hunan Beef</div>
           <div class="price beefSmallPrice"></div>
           <div class="price beefLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">32. Sa-Cha Beef</div>
+          <div class="dishName">41. Curry Beef</div>
+          <div class="price beefSmallPrice"></div>
+          <div class="price beefLargePrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">42. Sa-Cha Beef</div>
           <div class="price beefSmallPrice"></div>
           <div class="price beefLargePrice"></div>
         </div>
@@ -276,27 +356,28 @@
 
       <div class="menuItemContainer">
         <div class="dishType">Vegetables</div>
+        <div class="withRice">(with white or fried rice)</div>
 
         <div class="menuItem">
-          <div class="dishName">33. Mixed Chinese Vegetables</div>
+          <div class="dishName">43. Mixed Chinese Vegetables</div>
           <div class="price vegetableSmallPrice"></div>
           <div class="price vegetableLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">34. Hunan Tofu</div>
+          <div class="dishName">44. Hunan Tofu</div>
           <div class="price tofuSmallPrice"></div>
           <div class="price tofuLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">35. Yu-Shiang Tofu</div>
+          <div class="dishName">45. Yu-Shiang Tofu</div>
           <div class="price tofuSmallPrice"></div>
           <div class="price tofuLargePrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">36. Yu-Shang Broccoli</div>
+          <div class="dishName">46. Yu-Shang Broccoli</div>
           <div class="price vegetableSmallPrice"></div>
           <div class="price vegetableLargePrice"></div>
         </div>
@@ -307,7 +388,7 @@
         <div class="dishType">Fried Rice</div>
 
         <div class="menuItem">
-          <div class="dishName">37. Standard Fried Rice</div>
+          <div class="dishName">47. Standard Fried Rice</div>
           <div class="price friedRiceSmallPrice"></div>
           <div class="price friedRiceLargePrice"></div>
         </div>
@@ -329,244 +410,297 @@
           <div class="price friedRice2SmallPrice"></div>
           <div class="price friedRice2LargePrice"></div>
         </div>
+      </div>
 
-        <div class="menuItemContainer">
-          <div class="dishType">Lo Mein (Pasta)</div>
+      <div class="menuItemContainer">
+        <div class="dishType">Lo Mein (Pasta)</div>
+        <div class="withRice">(with white or fried rice)</div>
 
-          <div class="menuItem">
-            <div class="dishName">38. Vegetable or Chicken Lo Mein</div>
-            <div class="price loMein1SmallPrice"></div>
-            <div class="price loMein1LargePrice"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">Beef or Shrimp Lo Mein</div>
-            <div class="price loMein2SmallPrice"></div>
-            <div class="price loMein2LargePrice"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">Combination Lo Mein</div>
-            <div class="price loMein2SmallPrice"></div>
-            <div class="price loMein2LargePrice"></div>
-          </div>
-
+        <div class="menuItem">
+          <div class="dishName">48. Vegetable or Chicken Lo Mein</div>
+          <div class="price loMein1SmallPrice"></div>
+          <div class="price loMein1LargePrice"></div>
         </div>
 
-        <div class="menuItemContainer">
-          <div class="dishType">Chef's Specialties</div>
-
-          <div class="menuItem">
-            <div class="dishName">C1. Mandarin Combination</div>
-            <div class="price chefSpecialtiesPrice"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">C2. General Tso's Chicken</div>
-            <div class="price chefSpecialtiesPrice"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">C3. House To Fu</div>
-            <div class="price chefSpecialtiesPrice"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">C4. Sesame Chicken</div>
-            <div class="price chefSpecialtiesPrice"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">C5. Scallion Chicken</div>
-            <div class="price chefSpecialtiesPrice"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">C6. Orange Chicken</div>
-            <div class="price chefSpecialtiesPrice"></div>
-          </div>
-
+        <div class="menuItem">
+          <div class="dishName">Beef or Shrimp Lo Mein</div>
+          <div class="price loMein2SmallPrice"></div>
+          <div class="price loMein2LargePrice"></div>
         </div>
 
-        <div class="menuItemContainer">
-          <div class="dishType">Combination Plate</div>
-
-          <div class="menuItem">
-            <div class="dishName">D1. Chicken Fried Rice </div>
-            <div class="price combinationPlate1Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">D2. Beef, Shrimp, or Combination Fried Rice </div>
-            <div class="price combinationPlate2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">D3. Chicken with Broccoli </div>
-            <div class="price combinationPlate3Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">D4. Chicken with Cashew Nuts </div>
-            <div class="price combinationPlate3Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">D5. Chicken with Mushrooms </div>
-            <div class="price combinationPlate3Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">D6. Moo Goo Gai Pan </div>
-            <div class="price combinationPlate3Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">D7. Sweet & Sour Chicken </div>
-            <div class="price combinationPlate3Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">D8. Beef with Broccoli </div>
-            <div class="price combinationPlate4Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">D9. Beef with Pepper Steak </div>
-            <div class="price combinationPlate4Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">D10. Hunan Beef </div>
-            <div class="price combinationPlate4Price"></div>
-          </div>
-
-        </div>
-
-        <div class="menuItemContainer">
-          <div class="dishType">Lunch Specials</div>
-
-          <div class="menuItem">
-            <div class="dishName">L1. Hunan Chicken </div>
-            <div class="price lunchSpecial1Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L2. Moo Goo Gai Pan </div>
-            <div class="price lunchSpecial1Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L3. Sweet & Sour Chicken </div>
-            <div class="price lunchSpecial1Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L4. Chicken with Cashew Nuts </div>
-            <div class="price lunchSpecial1Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L5. Yu-Shang Chicken </div>
-            <div class="price lunchSpecial1Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L6. Chicken with Broccoli </div>
-            <div class="price lunchSpecial1Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L7. Shrimp in Chili Sauce </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L8. Shrimp with Vegetables </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L9. Yu-Shang Shrimp </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L10. Shrimp in Lobster Sauce </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L11. Hunan Shrimp </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L12. Pepper Steak </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L13. Beef with Broccoli </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L14. Beef with Vegetables </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L15. Yu-Shang Beef </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L16. Szechuan Beef </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L17. Hunan Beef </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L18. Mixed Chinese Vegetables </div>
-            <div class="price lunchSpecial1Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L19. Mandarin Combination </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L20. General Tso's Chicken </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L21. Sesame Chicken </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L22. Chicken Fried Rice </div>
-            <div class="price lunchSpecial3Price"></div>
-          </div>
-
-          <div class="menuItem">
-            <div class="dishName">L23. Scallion Chicken </div>
-            <div class="price lunchSpecial2Price"></div>
-          </div>
-
+        <div class="menuItem">
+          <div class="dishName">Combination Lo Mein</div>
+          <div class="price loMein2SmallPrice"></div>
+          <div class="price loMein2LargePrice"></div>
         </div>
 
       </div>
 
+      <div class="menuItemContainer">
+        <div class="dishType">Chow Mein</div>
+        <div class="withRice">(with white or fried rice)</div>
+
+        <div class="menuItem">
+          <div class="dishName">49. Vegetable or Chicken Chow Mein</div>
+          <div class="price chowMein1SmallPrice"></div>
+          <div class="price chowMein1LargePrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">Beef or Shrimp Chow Mein</div>
+          <div class="price chowMein2SmallPrice"></div>
+          <div class="price chowMein2LargePrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">Combination Chow Mein</div>
+          <div class="price chowMein2SmallPrice"></div>
+          <div class="price chowMein2LargePrice"></div>
+        </div>
+
+      </div>
+
+      <div class="menuItemContainer">
+        <div class="dishType">Chef's Specialties</div>
+        <div class="withRice">(with white or fried rice)</div>
+
+        <div class="menuItem">
+          <div class="dishName">C1. Mandarin Combination</div>
+          <div class="price chefSpecialtiesPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">C2. General Tso's Chicken</div>
+          <div class="price chefSpecialtiesPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">C3. House To Fu</div>
+          <div class="price chefSpecialtiesPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">C4. Sesame Chicken</div>
+          <div class="price chefSpecialtiesPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">C5. Sweet and Sour Triple Delight</div>
+          <div class="price chefSpecialtiesPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">C6. Scallion Chicken</div>
+          <div class="price chefSpecialtiesPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">C7. Four Seasons</div>
+          <div class="price chefSpecialtiesPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">C8. Orange Chicken</div>
+          <div class="price chefSpecialtiesPrice"></div>
+        </div>
+
+      </div>
+
+      <div class="menuItemContainer">
+        <div class="dishType">Combination Plate</div>
+        <div class="withRice">(Served with White/Fried Rice, Egg Roll, and Daily Soup)</div>
+
+        <div class="menuItem">
+          <div class="dishName">D1. Chicken Fried Rice </div>
+          <div class="price combinationPlate1Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">D2. Beef, Shrimp, or Combination Fried Rice </div>
+          <div class="price combinationPlate2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">D3. Chicken with Broccoli </div>
+          <div class="price combinationPlate3Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">D4. Chicken with Cashew Nuts </div>
+          <div class="price combinationPlate3Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">D5. Chicken with Mushrooms </div>
+          <div class="price combinationPlate3Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">D6. Moo Goo Gai Pan </div>
+          <div class="price combinationPlate3Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">D7. Sweet & Sour Chicken </div>
+          <div class="price combinationPlate3Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">D8. Beef with Broccoli </div>
+          <div class="price combinationPlate4Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">D9. Beef with Pepper Steak </div>
+          <div class="price combinationPlate4Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">D10. Hunan Beef </div>
+          <div class="price combinationPlate4Price"></div>
+        </div>
+
+      </div>
+
+      <div class="menuItemContainer">
+        <div class="dishType">Lunch Specials</div>
+        <div class="withRice">(Served with White/Fried Rice, Egg Roll, and Daily Soup)</div>
+
+        <div class="menuItem">
+          <div class="dishName">L1. Hunan Chicken </div>
+          <div class="price lunchSpecial1Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L2. Moo Goo Gai Pan </div>
+          <div class="price lunchSpecial1Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L3. Sweet & Sour Chicken </div>
+          <div class="price lunchSpecial1Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L4. Chicken with Cashew Nuts </div>
+          <div class="price lunchSpecial1Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L5. Yu-Shang Chicken </div>
+          <div class="price lunchSpecial1Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L6. Chicken with Broccoli </div>
+          <div class="price lunchSpecial1Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L7. Sweet & Sour Pork </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L8. Twice Cooked Pork </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L9. Sweet & Sour Shrimp </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L10. Shrimp in Chili Sauce </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L11. Shrimp with Vegetables </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L12. Yu-Shang Shrimp </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L13. Shrimp in Lobster Sauce </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L14. Hunan Shrimp </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L15. Pepper Steak </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L16. Beef with Broccoli </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L17. Beef with Vegetables </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L18. Yu-Shang Beef </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L19. Szechuan Beef </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L20. Hunan Beef </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L21. Mixed Chinese Vegetables </div>
+          <div class="price lunchSpecial1Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L22. Mandarin Combination </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L23. General Tso's Chicken </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L24. Sesame Chicken </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L25. Chicken Fried Rice </div>
+          <div class="price lunchSpecial3Price"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">L26. Scallion Chicken </div>
+          <div class="price lunchSpecial2Price"></div>
+        </div>
+
+      </div>
 
     </div>
+
+
     <div class="basicInformation">
       <p class="infoText"><span class="operation"></span></p>
       <p class="infoText"><span class="clock"></span></p>

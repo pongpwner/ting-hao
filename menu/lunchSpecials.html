@@ -40,17 +40,19 @@
                 <a href="appetizers.html" class="menuNavCat">Appetizers</a>
                 <a href="chicken.html" class="menuNavCat">Chicken</a>
                 <a href="shrimp.html" class="menuNavCat">Shrimp</a>
+                <a href="pork.html" class="menuNavCat">Pork</a>
                 <a href="beef.html" class="menuNavCat">Beef</a>
                 <a href="vegetables.html" class="menuNavCat">Vegetables</a>
                 <a href="friedRice.html" class="menuNavCat">Fried Rice</a>
                 <a href="loMein.html" class="menuNavCat">Lo Mein</a>
+                <a href="chowMein.html" class="menuNavCat">Chow Mein</a>
                 <a href="specialties.html" class="menuNavCat">Chef's Specialties</a>
                 <a href="combinationPlate.html" class="menuNavCat">Combination Plate</a>
                 <a href="lunchSpecials.html" class="menuNavCat">Lunch Specials</a>
             </div>
-            <div class="menuNavSearch">
-                <input value="" placeholder="Search" class="menuNavSearchBar">
-                <button class="menuNavSearchButton" onClick="searchMenu()">Search</button>
+            <div class="menuNavSearch desktop">
+                <input value="" placeholder="Search" class="menuNavSearchBar desktop">
+                <button class="menuNavSearchButton desktop" onClick="searchMenu()">Search</button>
 
 
 
@@ -61,9 +63,15 @@
 
 
         <div class="mainContent">
+            <div class="mobileMenuNavSearch mobile">
+                <input type="text" placeholder="Search" class="mobileMenuNavSearchBar mobile">
+                <button class="mobileMenuNavSearchButton mobile" onClick="searchMenuMobile()">Search</button>
+
+            </div>
 
             <div class="menuItemContainer">
                 <div class="dishType">Lunch Specials</div>
+                <div class="withRice">(Served with White/Fried Rice, Egg Roll, and Daily Soup)</div>
 
                 <div class="menuItem">
                     <div class="dishName">L1. Hunan Chicken </div>
@@ -96,94 +104,110 @@
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L7. Shrimp in Chili Sauce </div>
+                    <div class="dishName">L7. Sweet & Sour Pork </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L8. Shrimp with Vegetables </div>
+                    <div class="dishName">L8. Twice Cooked Pork </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L9. Yu-Shang Shrimp </div>
+                    <div class="dishName">L9. Sweet & Sour Shrimp </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L10. Shrimp in Lobster Sauce </div>
+                    <div class="dishName">L10. Shrimp in Chili Sauce </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L11. Hunan Shrimp </div>
+                    <div class="dishName">L11. Shrimp with Vegetables </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L12. Pepper Steak </div>
+                    <div class="dishName">L12. Yu-Shang Shrimp </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L13. Beef with Broccoli </div>
+                    <div class="dishName">L13. Shrimp in Lobster Sauce </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L14. Beef with Vegetables </div>
+                    <div class="dishName">L14. Hunan Shrimp </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L15. Yu-Shang Beef </div>
+                    <div class="dishName">L15. Pepper Steak </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L16. Szechuan Beef </div>
+                    <div class="dishName">L16. Beef with Broccoli </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L17. Hunan Beef </div>
+                    <div class="dishName">L17. Beef with Vegetables </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L18. Mixed Chinese Vegetables </div>
+                    <div class="dishName">L18. Yu-Shang Beef </div>
+                    <div class="price lunchSpecial2Price"></div>
+                </div>
+
+                <div class="menuItem">
+                    <div class="dishName">L19. Szechuan Beef </div>
+                    <div class="price lunchSpecial2Price"></div>
+                </div>
+
+                <div class="menuItem">
+                    <div class="dishName">L20. Hunan Beef </div>
+                    <div class="price lunchSpecial2Price"></div>
+                </div>
+
+                <div class="menuItem">
+                    <div class="dishName">L21. Mixed Chinese Vegetables </div>
                     <div class="price lunchSpecial1Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L19. Mandarin Combination </div>
+                    <div class="dishName">L22. Mandarin Combination </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L20. General Tso's Chicken </div>
+                    <div class="dishName">L23. General Tso's Chicken </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L21. Sesame Chicken </div>
+                    <div class="dishName">L24. Sesame Chicken </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L22. Chicken Fried Rice </div>
+                    <div class="dishName">L25. Chicken Fried Rice </div>
                     <div class="price lunchSpecial3Price"></div>
                 </div>
 
                 <div class="menuItem">
-                    <div class="dishName">L23. Scallion Chicken </div>
+                    <div class="dishName">L26. Scallion Chicken </div>
                     <div class="price lunchSpecial2Price"></div>
                 </div>
 
             </div>
 
-
         </div>
+
+
         <div class="basicInformation">
             <p class="infoText"><span class="operation"></span></p>
             <p class="infoText"><span class="clock"></span></p>

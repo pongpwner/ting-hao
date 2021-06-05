@@ -40,17 +40,19 @@
         <a href="appetizers.html" class="menuNavCat">Appetizers</a>
         <a href="chicken.html" class="menuNavCat">Chicken</a>
         <a href="shrimp.html" class="menuNavCat">Shrimp</a>
+        <a href="pork.html" class="menuNavCat">Pork</a>
         <a href="beef.html" class="menuNavCat">Beef</a>
         <a href="vegetables.html" class="menuNavCat">Vegetables</a>
         <a href="friedRice.html" class="menuNavCat">Fried Rice</a>
         <a href="loMein.html" class="menuNavCat">Lo Mein</a>
+        <a href="chowMein.html" class="menuNavCat">Chow Mein</a>
         <a href="specialties.html" class="menuNavCat">Chef's Specialties</a>
         <a href="combinationPlate.html" class="menuNavCat">Combination Plate</a>
         <a href="lunchSpecials.html" class="menuNavCat">Lunch Specials</a>
       </div>
-      <div class="menuNavSearch">
-        <input value="" placeholder="Search" class="menuNavSearchBar">
-        <button class="menuNavSearchButton" onClick="searchMenu()">Search</button>
+      <div class="menuNavSearch desktop">
+        <input value="" placeholder="Search" class="menuNavSearchBar desktop">
+        <button class="menuNavSearchButton desktop" onClick="searchMenu()">Search</button>
 
 
 
@@ -61,35 +63,70 @@
 
 
     <div class="mainContent">
+      <div class="mobileMenuNavSearch mobile">
+        <input type="text" placeholder="Search" class="mobileMenuNavSearchBar mobile">
+        <button class="mobileMenuNavSearchButton mobile" onClick="searchMenuMobile()">Search</button>
+
+      </div>
 
       <div class="menuItemContainer">
-        <div class="dishType">Appetizers</div>
+
+        <div class="dishType">Soups</div>
 
         <div class="menuItem">
-          <div class="dishName">4. Egg Roll</div>
-          <div class="price eggRollPrice"></div>
+          <div class="dishName">1. Eggdrop Soup</div>
+          <div class="price soupPrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">5. Crabmeat Fried Wontons (4)</div>
-          <div class="price friedWontonPrice"></div>
+          <div class="dishName">2. Wonton Soup</div>
+          <div class="price soupPrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">6. Fried Chicken Wings (8)</div>
-          <div class="price wingPrice"></div>
+          <div class="dishName">3. Hot & Sour Soup</div>
+          <div class="price soupPrice"></div>
         </div>
 
         <div class="menuItem">
-          <div class="dishName">7. Dumplings (10) (Fried/Steamed)</div>
-          <div class="price dumplingPrice"></div>
+          <div class="dishName">4. House Special Soup (2)</div>
+          <div class="price houseSpecialSoupPrice"></div>
         </div>
 
       </div>
 
+      <div class="menuItemContainer">
+
+        <div class="dishType">Appetizers</div>
+
+        <div class="menuItem">
+          <div class="dishName">5. Egg Roll</div>
+          <div class="price eggRollPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">6. Crabmeat Fried Wontons (4)</div>
+          <div class="price friedWontonPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">7. Fried Chicken Wings (8)</div>
+          <div class="price wingPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">8. Dumplings (10) (Fried/Steamed)</div>
+          <div class="price dumplingPrice"></div>
+        </div>
+
+        <div class="menuItem">
+          <div class="dishName">9. Spring Roll (1)</div>
+          <div class="price springRollPrice"></div>
+        </div>
+
+      </div>
 
     </div>
-
 
 
     <div class="basicInformation">

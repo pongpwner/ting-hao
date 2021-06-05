@@ -6,10 +6,11 @@ body {
   margin: 0;
   background-color: #e6e3e3;
 }
-.menuNav,
-.menuNavSearch,
-.menuNavSearchButton {
-  display: none;
+
+.mobileMenuNavSearch {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
 }
 .desktop {
   display: none;
@@ -124,10 +125,10 @@ body {
 }
 .menuLink {
   font-size: 1.2em;
-  color: red;
-  background-color: #f7e40a;
+  color: white;
+  background-color: #b61507;
   padding: 5% 20% 5% 20%;
-  border: 2px red solid;
+  border: 2px #b61507 solid;
   border-radius: 3px;
   text-decoration: none;
 }
@@ -233,16 +234,19 @@ body {
   content: "3.99";
 }
 .wingPrice:after {
-  content: "7.99";
+  content: "9.99";
 }
 .dumplingPrice:after {
   content: "8.99";
 }
+.springRollPrice:after {
+  content: "1.39";
+}
 .chickenSmallPrice:after {
-  content: "S: 7.99";
+  content: "S: 8.99";
 }
 .chickenLargePrice:after {
-  content: "L: 11.99";
+  content: "L: 12.99";
 }
 .shrimpSmallPrice:after {
   content: "S: 9.99";
@@ -250,11 +254,17 @@ body {
 .shrimpLargePrice:after {
   content: "L: 13.99";
 }
+.porkSmallPrice:after {
+  content: "S: 9.99";
+}
+.porkLargePrice:after {
+  content: "L: 13.99";
+}
 .beefSmallPrice:after {
-  content: "S: 8.99";
+  content: "S: 9.99";
 }
 .beefLargePrice:after {
-  content: "L: 12.99";
+  content: "L: 13.99";
 }
 .vegetableSmallPrice:after {
   content: "S: 7.99";
@@ -274,7 +284,7 @@ body {
 .friedRiceLargePrice:after {
   content: "L: 4.99";
 }
-.fried1RiceSmallPrice:after {
+.friedRice1SmallPrice:after {
   /* vegetable  and chicken fried rice*/
   content: "S: 7.59";
 }
@@ -293,45 +303,59 @@ body {
   content: "S: 7.99";
 }
 .loMein1LargePrice:after {
-  content: "L: 10.99";
+  content: "L: 11.99";
 }
 .loMein2SmallPrice:after {
   /* beef, shrimp, combination lo mein*/
   content: "S: 8.99";
 }
 .loMein2LargePrice:after {
+  content: "L: 12.99";
+}
+.chowMein1SmallPrice:after {
+  /* vegetable  and chicken lo mein*/
+  content: "S: 7.99";
+}
+.chowMein1LargePrice:after {
   content: "L: 11.99";
+}
+.chowMein2SmallPrice:after {
+  /* beef, shrimp, combination lo mein*/
+  content: "S: 8.99";
+}
+.chowMein2LargePrice:after {
+  content: "L: 12.99";
 }
 .chefSpecialtiesPrice:after {
   content: "13.99";
 }
 .combinationPlate1Price:after {
   /*chicken fried rice*/
-  content: "10.59";
+  content: "11.59";
 }
 .combinationPlate2Price:after {
   /*beef, shrimp, combination fried rice*/
-  content: "10.79";
+  content: "11.79";
 }
 .combinationPlate3Price:after {
   /*chicken dishes*/
-  content: "10.99";
+  content: "12.99";
 }
 .combinationPlate4Price:after {
   /*beef dishes*/
-  content: "11.99";
+  content: "12.99";
 }
 .lunchSpecial1Price:after {
   /*chicken and vegetable dishes*/
-  content: "8.59";
+  content: "9.59";
 }
 .lunchSpecial2Price:after {
   /* shrimp and beef and chef specialies dishes*/
-  content: "8.99";
+  content: "9.99";
 }
 .lunchSpecial3Price:after {
   /* chicken fried rice*/
-  content: "8.49";
+  content: "9.59";
 }
 /*/ //////////////////////////////////////location and hours///////////////////////////////////////*/
 .descriptionContainer {
@@ -398,11 +422,7 @@ body {
     grid-column: 1/4;
     grid-row: 2/3;
   }
-  .menuNavCat,
-  .menuNavSearch,
-  .menuNavSearchButton {
-    display: block;
-  }
+
   .menuNav {
     display: flex;
     flex-direction: column;
@@ -531,5 +551,16 @@ body {
     grid-row: -2;
     display: flex;
     margin-right: 2%;
+  }
+  /*location*/
+  .map {
+    grid-column: 2/4;
+    grid-row: 8/10;
+    padding-top: 5%;
+    padding-right: 1%;
+  }
+  .map img {
+    max-width: 100%;
+    max-height: 100%;
   }
 }
