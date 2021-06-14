@@ -42,17 +42,24 @@ body {
 .mobileNavBar {
   display: none;
   z-index: 2;
-  position: absolute;
-  background-color: white;
+  position: fixed;
   top: 0;
   width: 80%;
+  background-color: white;
 }
+
 .mobileNavBarItem {
   z-index: 2;
-  padding: 3px 3px;
+  padding: 2% 0 2% 2%;
   border: none;
   text-decoration: none;
   border-bottom: 1px solid;
+  font-size: 1.3em;
+  background-color: white;
+  color: black;
+}
+.mobileNavBarItem:hover {
+  background-color: gray;
 }
 .mobileNavClose {
   display: flex;
@@ -61,12 +68,16 @@ body {
   padding: 2%;
   background-color: white;
 }
+.mobileNavClose:hover {
+  background: gray;
+}
 .menuNavCat {
   text-decoration: none;
-  border-bottom: 1px gray solid;
+  border-bottom: 1px black solid;
   padding: 3% 0 3% 3%;
-  color: green;
+  color: black;
   font-size: 1.3em;
+  background-color: g#e3e3e3;
 }
 .basicInformation {
   display: flex;
@@ -109,14 +120,14 @@ body {
 .menuNav {
   display: none;
   flex-direction: column;
-  background-color: white;
 }
 .menuButton {
   width: 100%;
-  background-color: #e3e3e3;
+  background-color: #ba1e1e;
   border: none;
   font-size: 1.5em;
   padding: 1%;
+  color: white;
 }
 .mobileMenuButton {
   display: flex;
@@ -124,7 +135,7 @@ body {
   justify-content: center;
 }
 .menuLink {
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: white;
   background-color: #b61507;
   padding: 5% 20% 5% 20%;
@@ -164,6 +175,13 @@ body {
 
 .description {
   margin: 4%;
+}
+.mobileNavBarInfo {
+  margin-top: 4%;
+}
+.navText {
+  margin: 4%;
+  font-size: 1.3em;
 }
 /*picture page*/
 
